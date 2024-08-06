@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.div1 {
+  background-color: #abb8c3;
+  height: 500px;
+}
+* {
+  margin: 0;
+}
+.div2 {
+  height: 500px;
+}
+.pic {
+  width: 50%;
+  position: relative;
+  min-width: 100px;
+  max-width: 600px;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+.form {
+  position: relative;
+  float: right;
+  right: 10%;
+  top: 30%;
+  width: calc(40%);
+  height: calc(50%);
+  padding: 20px;
+}
+.title {
+  font-family: "Raleway", sans-serif;
+  margin: 15px;
+}
+.inputemail {
+  margin-top: 30px;
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  outline: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.inputemail:focus {
+  opacity: 50%;
+}
+.btn {
+  background-color: #2a3843;
+  width: 40%;
+  height: 50px;
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  line-height: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: #182027;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.flex-container > div {
+  background-color: #ffffff;
+  margin: 20px;
+  border: 1px solid #ccc;
+  width: 25%;
+  max-width: 300px;
+  height: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.image {
+  width: 80%;
+  height: fit-content;
+}
+.info {
+  flex: 1;
+  height: 100%;
+  width: 80%;
+  margin: 10px;
+}
+p {
+  overflow: hidden;
+  display: block;
+  line-height: 50px;
+  font-family: "Raleway", sans-serif;
+}
+.tick {
+  width: 15%;
+  height: 15%;
+  vertical-align: middle;
+  margin: 5px;
+}
